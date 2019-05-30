@@ -76,8 +76,24 @@ footer {
 	font-weight: 500;
 }
 
+input {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	border-radius: 15px;
+	margin: 40px 0 0 0;
+	background-color: #F15B31;
+	padding: 15px 30px;
+	text-transform: uppercase;
+}
+
+input:hover {
+	background-color: #ef7451;
+	cursor: pointer;
+}
+
 .copyright {
 	float: left;
+	margin-right: 80px;
 }
 
 .message {

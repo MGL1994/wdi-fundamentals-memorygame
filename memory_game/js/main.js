@@ -34,8 +34,7 @@ function createBoard() {
 		cardElement.addEventListener("click", flipCard);
 
 		document.getElementById("game-board").appendChild(cardElement);
-	}
-
+    }
 };
 
 function checkForMatch() {
@@ -64,7 +63,12 @@ function flipCard() {
 	if (cardsInPlay.length === 2) {
 		checkForMatch();
 	}
-
 };
+
+function resetGame() {
+
+	window.location.reload(false);
+
+ };
 
 createBoard();
